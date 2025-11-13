@@ -1,0 +1,64 @@
+body {
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+nav h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+a{
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 30px 25px;
+    max-width: 90%;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  button {
+    width: 100%;
+    justify-content: center;
+  }
+}

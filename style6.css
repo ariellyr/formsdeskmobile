@@ -1,0 +1,113 @@
+.elemento-com-linha {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(226, 228, 229, 1);
+  margin: 1em 0; 
+}
+
+.logo{
+    width: 200px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input{
+    border: none;
+}
+
+.count{
+    display: flex;
+   align-items: center;
+ width: 90px;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+fieldset{
+     width: 456;
+  height: 80;
+  opacity: 1;
+  gap: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 16px;
+  font-family: "Poppins";
+}
+
+button{
+width: 126px;
+height: 50px;
+opacity: 1;
+padding-right: 24px;
+padding-left: 24px;
+gap: 8px;
+border-radius: 4px;
+border-width: 1px;
+border: 1px solid #007AFF;
+background: #007AFF;
+font-family: "Poppins";
+margin-top: 20px;
+color: aliceblue;
+}
+
+.form-row {
+  display: flex;
+  gap: 24px; 
+  align-items: flex-start; 
+  background: white;
+  padding: 32px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.count {
+  display: flex;
+  flex-direction: column; 
+  gap: 8px; 
+  
+
+  flex: 1; 
+}
+
+
+
+label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+input, select {
+  padding: 10px 4px; 
+  font-size: 1.1rem;
+
+  border: none;
+  border-bottom: 2px solid #ccc;
+  
+  background-color: transparent; 
+  outline: none;
+}
+
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+
+  background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 0px top 50%;
+  background-size: 24px;
+  padding-right: 28px; 
+}

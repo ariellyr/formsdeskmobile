@@ -1,0 +1,168 @@
+body {
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 1px solid #eee;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+nav h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  margin: 4rem auto;
+  padding: 2rem;
+}
+
+
+.container h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #1e1e1e;
+}
+
+.container p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #666;
+}
+
+fieldset {
+  border: none;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+fieldset:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0;
+}
+
+fieldset i {
+  color: #4b7bec;
+  margin-right: 10px;
+}
+
+fieldset p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+
+fieldset {
+  border: none;
+  margin-bottom: 25px;
+}
+
+fieldset p {
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.fa-pencil {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.fa-pencil:hover {
+  color: #0056b3;
+}
+
+
+#resend {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+#resend:hover {
+  text-decoration: underline;
+}
+
+div p {
+  font-size: 13px;
+  color: #888;
+  margin-top: 8px;
+}
+
+a{
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+
+@media (max-width: 768px) {
+  nav {
+    padding: 20px 30px;
+  }
+
+  .container {
+    box-shadow: none;
+    padding: 25px;
+    background-color: #fff;
+  }
+
+  .container h2 {
+    font-size: 24px;
+  }
+}
